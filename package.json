@@ -15,13 +15,9 @@
     "codeceptjs": "codeceptjs run --steps",
     "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
     "codeceptjs:ui": "codecept-ui --app",
-    "ci": "concurrently -s first -k 'npm:serve' 'npm:codeceptjs'",
-    "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
-    "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
-    "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+    "ci": "concurrently -s first -k 'npm:serve' 'npm:codeceptjs'"
   },
-  "keywords": [],
-  "author": "",
+  "author": "seedwhale",
   "license": "ISC",
   "homepage": "https://github.com/megaptera-kr/frontend-survival-week03#readme",
   "devDependencies": {
@@ -54,7 +50,6 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "parcel-reporter-static-files-copy": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

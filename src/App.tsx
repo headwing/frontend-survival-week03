@@ -1,8 +1,12 @@
+import FilterableRestaurantTable from './components/FilterableRestaurantTable';
+
+import { restaurants } from '../restaurants.json';
+
 export default function App() {
   return (
     <div>
-      <p>Hello, world!</p>
-      <img src="/images/test.jpg" alt="Test" width="auto" />
+      <h1>오늘의 메뉴</h1>
+      <FilterableRestaurantTable restaurants={restaurants} />
     </div>
   );
 }
