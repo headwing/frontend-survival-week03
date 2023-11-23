@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Food from '../types/Food';
 
 type FoodsProps = {

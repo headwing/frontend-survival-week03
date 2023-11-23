@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import RestaurantRow from './RestaurantRow';
 
 import Restaurant from '../types/Restaurant';

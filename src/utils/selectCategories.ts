@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Restaurant from '../types/Restaurant';
 
 export default function selectCategories(restaurants: Restaurant[]): string[] {

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import FilterableRestaurantTable from './components/FilterableRestaurantTable';
 
 import { restaurants } from '../restaurants.json';

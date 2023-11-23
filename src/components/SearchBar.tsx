@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import TextField from './TextField';
 
 type SearchBarProps = {

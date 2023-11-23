@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable import/no-extraneous-dependencies, @typescript-eslint/no-var-requires */
 
 const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Foods from './Foods';
 
 import Restaurant from '../types/Restaurant';
